@@ -12,6 +12,11 @@ class Sample1_11_1 {
 		
 		while( calcNumber < 100){
 			
+			System.out.println("calcNumber:" + calcNumber);
+			
+			calcNumber *= receiveNumber ;
+			
+		}
 		
-		
-		
+	}
+}
